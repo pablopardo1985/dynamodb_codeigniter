@@ -5,6 +5,8 @@ Just download the AWS PHP SDK and extract it into system/libraries.
 
 In application/config/database.php add the following:
 
+
+```
 $db['default'] = array(
 	'key' => 'YOUR_AWS_KEY',
 	'region' => 'YOUR_AWS_REGION',
@@ -12,3 +14,4 @@ $db['default'] = array(
 	'dbdriver' => 'dynamodb',
 	'version' => 'latest'
 );
+```
